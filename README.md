@@ -1,7 +1,6 @@
 # TIKTOK-TELE-BOT
 
 A simple Telegram bot that allows you to download TikTok videos directly from Telegram. The bot uses the popular Telegram Bot API and TikTok API to fetch and download videos from TikTok.
-#### [Try Demo](https://t.me/tikdl_tele_bot)
 
 ## Installation
 
@@ -10,13 +9,13 @@ To get started with the Telegram Bot Tiktok Downloader, follow the steps below:
 1. Clone this repository to your local machine.
 
 ```shell
-$ git clone https://github.com/BOTCAHX/tiktok-tele-bot.git
+$ git clone [https://github.com/BOTCAHX/tiktok-tele-bot.git](https://github.com/kawainime/TiktokDownloaderBot)
 ```
 
 2. Navigate to the project directory.
 
 ```shell
-$ cd tiktok-tele-bot
+$ cd TiktokDownloaderBot
 ```
 
 3. Install the necessary dependencies using npm.
@@ -33,7 +32,6 @@ $ node Telegraf.js
 
 5. Setup a new bot on Telegram by following the [official Telegram Bot documentation](https://core.telegram.org/bots#botfather). Obtain the bot token for your newly created bot.
 
-6. [Replace](https://github.com/BOTCAHX/tiktok-tele-bot/blob/5c36c6b470d85db9570be1971ba7775386ae06b9/Telegraf.js#L41) this line with a token from bot father
 
 ```javascript
 let token = 'YOUR_TOKEN_HERE'
