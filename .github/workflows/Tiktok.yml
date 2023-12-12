@@ -1,4 +1,4 @@
-name: Agar ON 24 JAM
+name: Scrape latest data
 
 on:
   push:
@@ -23,7 +23,7 @@ jobs:
         curl -H 'user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/11.1.2 Safari/605.1.15' "https://tikfinity.zerody.one/api/getAllGifts?app_language=en-US&browser_language=en&priority_region=US&region=US&webcast_language=en-US" | jq . > live-gift-details.json
     - name: Commit and push if it changed
       run: |-
-        git config user.name "TikTok Downloader BOT"
+        git config user.name "TikTok Trending BOT"
         git config user.email "actions@users.noreply.github.com"
         git add -A
         timestamp=$(date -u)
